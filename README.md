@@ -39,6 +39,25 @@ Open index.html in Your Browser:
 Double-click on index.html or open it in a browser of your choice:
 open index.html
 Your browser should display the Karatsuba calculator.
+How to Run Locally
+
+If you want to run the calculator on your local machine, follow these steps:
+
+Prerequisites:
+A web browser (e.g., Google Chrome, Firefox, etc.)
+Steps:
+Clone the Repository:
+If you don't have git installed, you can download the files directly from GitHub.
+To clone the repository, open your terminal and run:
+git clone https://github.com/<your-username>/karatsuba-calculator.git
+Replace <your-username> with your actual GitHub username.
+Navigate to the Folder:
+Open the folder where you cloned the repository:
+cd karatsuba-calculator
+Open index.html in Your Browser:
+Double-click on index.html or open it in a browser of your choice:
+open index.html
+Your browser should display the Karatsuba calculator.
 How to Deploy
 
 You can deploy this website to various platforms. Below are the instructions for deploying on some popular platforms:
