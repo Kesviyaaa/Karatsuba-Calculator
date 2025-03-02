@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.calculator {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.instructions {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #f1f1f1;
+}
+
+button:active {
+  background-color: #e0e0e0;
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button#clear {
+  background-color: #ff6666;
+  color: white;
+}
+
+button#equal {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  transition: opacity 0.3s ease;
+}
+
+.result.error {
+  color: #ff6666;
+}
+
+@media (max-width: 500px) {
+  .calculator {
+    width: 90%;
+    padding: 20px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
