@@ -8,25 +8,6 @@ Karatsuba Multiplication: Multiplies two numbers using the Karatsuba algorithm, 
 Simple UI: A clean, user-friendly interface to input two numbers and get the result instantly.
 Responsive Design: Optimized for both desktop and mobile devices.
 Interactive Buttons: Easily add numbers using on-screen buttons.
-Tech Stack
-
-HTML: For structuring the webpage.
-
-CSS: For styling the user interface.
-
-JavaScript: For the Karatsuba multiplication algorithm and interactive functionality.
-
-How to Use
-
-Open the webpage in your browser.
-
-Enter the first number in the first input field.
-
-Enter the second number in the second input field (the second input box appears after you type in the first).
-
-Click the "=" button to calculate the product of the two numbers.
-
-You can clear the inputs using the "C" button.
 
 
 
