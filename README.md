@@ -5,8 +5,11 @@ This is a simple web application that uses the Karatsuba multiplication algorith
 Features
 
 Karatsuba Multiplication: Multiplies two numbers using the Karatsuba algorithm, an efficient divide-and-conquer method for large numbers.
+
 Simple UI: A clean, user-friendly interface to input two numbers and get the result instantly.
+
 Responsive Design: Optimized for both desktop and mobile devices.
+
 Interactive Buttons: Easily add numbers using on-screen buttons.
 
 
