@@ -12,8 +12,7 @@ Responsive Design: Optimized for both desktop and mobile devices.
 
 Interactive Buttons: Easily add numbers using on-screen buttons.
 
-REF : WIKIPEDIA
-<img width="1440" alt="Screenshot 2025-03-02 at 9 44 49 PM" src="https://github.com/user-attachments/assets/a0e01729-6f82-4cda-af5a-5ffebddb6246" />
+
 
 <img width="1440" alt="Screenshot 2025-03-02 at 9 35 43 PM" src="https://github.com/user-attachments/assets/c9e0ae54-2878-48a0-8c2d-69d1acb04e01" />
 
